@@ -15,12 +15,17 @@ body {
     margin: 0;
 }
 
-nav, #content {
-    background-color: var(--container-background);
+p, h1, h2 {
+    margin: 0;
+    text-wrap: pretty;
 }
 
 nav button, #content {
     background: var(--basic-border);
+}
+
+nav, #content {
+    background-color: var(--container-background);
 }
 
 nav {
@@ -36,6 +41,17 @@ nav button {
     background-color: var(--button-color);
     margin: 0.2rem 0;
     font-size: 1rem;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 1rem;
+    margin: 3rem 30vw;
+    padding: 1rem 5vw;
+    white-space: pre;
 }
 
 .shadow {
