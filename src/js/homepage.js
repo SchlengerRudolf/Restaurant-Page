@@ -12,7 +12,7 @@
             contentContainer.appendChild(headline);
 
             const mainText = document.createElement("p");
-            const mainTextContent = document.createTextNode("Here at Diego's you will get best, fresh and traditional german pastry");
+            const mainTextContent = document.createTextNode("Here at Diego's you will get best, fresh and traditional german pastry ");
             mainText.appendChild(mainTextContent);
             contentContainer.appendChild(mainText);
 
